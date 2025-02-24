@@ -10,7 +10,7 @@ In the long-run the controller can be programmed to be able to communicate to di
 + Driver: Infineon TLE9201 6A H-Bridge motor driver with SPI interface
 + Display: GC9A01 240x240 circular IPS Monitor
 
-#Features:
+# Features:
 + Current Monitoring
 + Voltage Monitoring
 + Reverse Polarity Protection
@@ -23,7 +23,5 @@ In the long-run the controller can be programmed to be able to communicate to di
 + Extra headers for (Matrix) IO
 + DCC-Ready Hardware
 
-# TODO
-+ Upload initial firmware
-+ Improve Firmware for use of H-bridge
-+ Improve graphics display desing
+# Current Status:
+Testing IO Expansion part on a breadboard. Creating initial firmware and drawing the Icons that are to be displayed on the GC9A01.

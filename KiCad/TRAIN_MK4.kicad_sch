@@ -6700,6 +6700,16 @@
 		)
 		(uuid "4a9fbacb-6a47-43ec-ace8-fe555374b74c")
 	)
+	(text "7-24V"
+		(exclude_from_sim no)
+		(at 26.67 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b061d66-209b-4c3d-b402-a2da90b0da17")
+	)
 	(text "Buzzer"
 		(exclude_from_sim no)
 		(at 109.22 249.428 0)
@@ -6713,6 +6723,16 @@
 			)
 		)
 		(uuid "6463e280-de13-4763-a761-dc781012615f")
+	)
+	(text "7-24V"
+		(exclude_from_sim no)
+		(at 112.776 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6df533e6-0a63-4576-9efa-827b9116fa15")
 	)
 	(text "RP2040 Board"
 		(exclude_from_sim no)
@@ -9991,6 +10011,16 @@
 			(justify left bottom)
 		)
 		(uuid "94ec3c4a-8be5-4eb9-bb09-e6d53d2d9777")
+	)
+	(label "FAN_PWR"
+		(at 63.5 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "def6e783-15ec-452b-a93d-dfbedd5d4a45")
 	)
 	(global_label "TRIP"
 		(shape input)
@@ -18417,7 +18447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20m"
+		(property "Value" "15m"
 			(at 99.568 39.37 90)
 			(effects
 				(font
